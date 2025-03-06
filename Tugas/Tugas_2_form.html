@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tugas</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" required>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="text" name="email" required>
+        </p>
+        <p>
+            <label>Jenis Kelamin:</label>
+            <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki
+            <input type="radio" name="gender" value="Perempuan"> Perempuan
+        </p>
+        <p>
+            <label>Hobi:</label>
+            <input type="checkbox" name="hobi" value="Music"> Music
+            <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+            <input type="checkbox" name="hobi" value="Memasak"> Memasak
+            <input type="checkbox" name="hobi" value="Bersepeda"> Bersepeda
+            <input type="checkbox" name="hobi" value="Membaca Buku"> Membaca Buku
+        </p>
+        <p>
+            <label>Pilih Kota:</label>
+            <select name="kota">
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Karawang">karawang</option>
+                <option value="Ciamis">Ciamis</option>
+                <option value="Temanggung">Temanggung</option>
+            </select>
+        </p>
+        <p>
+            <label>Upload Foto:</label>
+            <input type="file" id="file" name="foto">
+        </p>
+        <p>
+            <button type="submit">Daftar</button>
+        </p>
+    </form>
+</body>
+</html>
