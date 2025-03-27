@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 5</title>
+</head>
+<body> -->
+    <!-- javascript secara internal -->
+
+    <!-- <h1>Selamat Siang Sahabatku</h1>
+    <h1 id="judul">Selamat Datang Sahabatku</h1>
+    <button onclick="ubahteks()">Coba Pencet</button>
+
+    <script>
+        function ubahteks(){
+            document.getElementById("judul").innerHTML ="Loh masih disini?";
+        }
+    </script> -->
+
+
+    <!-- <h1>Belajar Javascript Dasar</h1> -->
+    <!-- <script>
+        alert("hallo ini adalah alert yang saya buat dengan javascript")
+    </script> -->
+     <!-- <button onclick="alert('Saya sedang belajar javascript nih')">Klik saya</button> -->
+
+
+    <!-- javascript secara eksternal -->
+     <!-- <h1>Belajar javascript dasar cuyyy</h1>
+    <script src="pertemuan6.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kalkulator Sederhana</title>
+     </head>
+     <body>
+        <h2>Kalkulator</h2>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button onclick="hitung()">Hitung</button>
+        <p>Hasil: <span id="hasil"></span></p>
+     
+     
+        <script>
+            function hitung() {
+                let num1 = document.getElementById("num1").value;
+                let num2 = document.getElementById("num2").value;
+                let hasil = parseInt(num1) + parseInt(num2);
+                document.getElementById("hasil").innerText = hasil;
+            }
+        </script>
+     </body>
+</html>
